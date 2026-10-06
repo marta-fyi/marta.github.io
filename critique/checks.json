@@ -1,0 +1,560 @@
+{
+ "desktop": {
+  "simultaneity": {
+   "pass": true,
+   "maxPrimaryMovers": 2,
+   "flaggedAt": [],
+   "sample": []
+  },
+  "doubleExposure": {
+   "pass": true,
+   "pairs": {},
+   "captionsOverlapping": []
+  },
+  "distortion": {
+   "pass": true,
+   "nonUniform": {},
+   "outOfRange": {}
+  },
+  "continuity": {
+   "pass": true,
+   "failingFrames": 0,
+   "of": 432,
+   "at": []
+  },
+  "legibility": {
+   "pass": true,
+   "smallestPx": 11.04,
+   "smallestText": "09:00",
+   "atMs": 7200,
+   "framesUnder11": 0,
+   "at": []
+  },
+  "holds": {
+   "pass": true,
+   "holds": [
+    {
+     "stage": 1,
+     "stillFromMs": 4800,
+     "stillToMs": 6500,
+     "stillMs": 1700,
+     "need": 1500,
+     "pass": true
+    },
+    {
+     "stage": 2,
+     "stillFromMs": 10000,
+     "stillToMs": 11750,
+     "stillMs": 1750,
+     "need": 1500,
+     "pass": true
+    },
+    {
+     "stage": 3,
+     "stillFromMs": 14800,
+     "stillToMs": 16450,
+     "stillMs": 1650,
+     "need": 1500,
+     "pass": true
+    },
+    {
+     "stage": 4,
+     "stillFromMs": 19400,
+     "stillToMs": 21550,
+     "stillMs": 2150,
+     "need": 2000,
+     "pass": true
+    }
+   ],
+   "note": "fully still: rail, captions and every card"
+  },
+  "transformOrigin": {
+   "pass": true,
+   "menuOrigin": [
+    996.6,
+    266.5
+   ],
+   "dotsCentre": [
+    996.8,
+    266.7
+   ],
+   "distancePx": 0.3
+  }
+ },
+ "mobile": {
+  "simultaneity": {
+   "pass": true,
+   "maxPrimaryMovers": 2,
+   "flaggedAt": [],
+   "sample": []
+  },
+  "doubleExposure": {
+   "pass": true,
+   "pairs": {},
+   "captionsOverlapping": []
+  },
+  "distortion": {
+   "pass": true,
+   "nonUniform": {},
+   "outOfRange": {}
+  },
+  "continuity": {
+   "pass": true,
+   "failingFrames": 0,
+   "of": 432,
+   "at": []
+  },
+  "legibility": {
+   "pass": true,
+   "smallestPx": 11.75,
+   "smallestText": "09:00",
+   "atMs": 7200,
+   "framesUnder11": 0,
+   "at": []
+  },
+  "holds": {
+   "pass": true,
+   "holds": [
+    {
+     "stage": 1,
+     "stillFromMs": 4800,
+     "stillToMs": 6500,
+     "stillMs": 1700,
+     "need": 1500,
+     "pass": true
+    },
+    {
+     "stage": 2,
+     "stillFromMs": 10000,
+     "stillToMs": 11750,
+     "stillMs": 1750,
+     "need": 1500,
+     "pass": true
+    },
+    {
+     "stage": 3,
+     "stillFromMs": 14800,
+     "stillToMs": 16450,
+     "stillMs": 1650,
+     "need": 1500,
+     "pass": true
+    },
+    {
+     "stage": 4,
+     "stillFromMs": 19400,
+     "stillToMs": 21550,
+     "stillMs": 2150,
+     "need": 2000,
+     "pass": true
+    }
+   ],
+   "note": "fully still: rail, captions and every card"
+  },
+  "transformOrigin": {
+   "pass": true,
+   "menuOrigin": [
+    304.7,
+    165.7
+   ],
+   "dotsCentre": [
+    304.6,
+    165.5
+   ],
+   "distancePx": 0.2
+  }
+ },
+ "direction": {
+  "pass": true,
+  "entering": [
+   {
+    "target": "[data-a=\"order\"]",
+    "t": 2.35,
+    "dx": 16
+   },
+   {
+    "target": "[data-a=\"quote\"]",
+    "t": 3,
+    "dx": 16
+   },
+   {
+    "target": "[data-a=\"sched\"]",
+    "t": 7.15,
+    "dx": 16
+   },
+   {
+    "target": "[data-a=\"done\"]",
+    "t": 12.25,
+    "dx": 16
+   },
+   {
+    "target": "[data-a=\"track\"]",
+    "t": 17.1,
+    "dx": 16
+   }
+  ],
+  "exiting": [
+   {
+    "target": "[data-a=\"up\"]",
+    "t": 2.1,
+    "dx": -16
+   },
+   {
+    "target": "[data-a=\"quote\"]",
+    "t": 6.5,
+    "dx": -12
+   },
+   {
+    "target": "[data-a=\"order\"]",
+    "t": 6.7,
+    "dx": -16
+   },
+   {
+    "target": "[data-a=\"sched\"]",
+    "t": 11.75,
+    "dx": -16
+   },
+   {
+    "target": "[data-a=\"done\"]",
+    "t": 16.6,
+    "dx": -16
+   }
+  ],
+  "toasts": [
+   "[data-a=\"t1\"] enter y [12,0] x 0",
+   "[data-a=\"t1\"] exit y [0,8] x 0",
+   "[data-a=\"t2\"] enter y [12,0] x 0"
+  ],
+  "toastsPass": true
+ },
+ "timing": {
+  "enterCards": {
+   "ms": [
+    450
+   ],
+   "eases": [
+    "cubic-bezier(.22,1,.36,1)"
+   ]
+  },
+  "exitCards": {
+   "ms": [
+    250
+   ],
+   "eases": [
+    "cubic-bezier(.55,0,1,.45)"
+   ]
+  },
+  "exitSatellites": {
+   "ms": [
+    180
+   ],
+   "eases": [
+    "cubic-bezier(.55,0,1,.45)"
+   ]
+  },
+  "travel": [
+   {
+    "target": "[data-a=\"pill\"]",
+    "start": 0.45,
+    "distPx": 202,
+    "ms": 550,
+    "wantMs": 550,
+    "ease": "cubic-bezier(.65,0,.35,1)",
+    "rule": "ok"
+   },
+   {
+    "target": "[data-a=\"token\"]",
+    "start": 2.25,
+    "distPx": 53,
+    "ms": 450,
+    "wantMs": 450,
+    "ease": "cubic-bezier(.65,0,.35,1)",
+    "rule": "ok"
+   },
+   {
+    "target": "[data-a=\"token\"]",
+    "start": 6.8,
+    "distPx": 238,
+    "ms": 550,
+    "wantMs": 550,
+    "ease": "cubic-bezier(.65,0,.35,1)",
+    "rule": "ok"
+   },
+   {
+    "target": "[data-a=\"p1\"]",
+    "start": 8.05,
+    "distPx": 382,
+    "ms": 550,
+    "wantMs": 550,
+    "ease": "cubic-bezier(.65,0,.35,1)",
+    "rule": "ok"
+   },
+   {
+    "target": "[data-a=\"p2\"]",
+    "start": 8.17,
+    "distPx": 572,
+    "ms": 550,
+    "wantMs": 550,
+    "ease": "cubic-bezier(.65,0,.35,1)",
+    "rule": "ok"
+   },
+   {
+    "target": "[data-a=\"now\"]",
+    "start": 8.9,
+    "distPx": 317,
+    "ms": 900,
+    "wantMs": 550,
+    "ease": "cubic-bezier(.65,0,.35,1)",
+    "rule": "beat (authored)"
+   },
+   {
+    "target": "[data-a=\"token\"]",
+    "start": 11.9,
+    "distPx": 50,
+    "ms": 450,
+    "wantMs": 450,
+    "ease": "cubic-bezier(.65,0,.35,1)",
+    "rule": "ok"
+   },
+   {
+    "target": "[data-a=\"knob\"]",
+    "start": 13.6,
+    "distPx": 180,
+    "ms": 700,
+    "wantMs": 450,
+    "ease": "cubic-bezier(.65,0,.35,1)",
+    "rule": "beat (authored)"
+   },
+   {
+    "target": "[data-a=\"token\"]",
+    "start": 16.75,
+    "distPx": 47,
+    "ms": 450,
+    "wantMs": 450,
+    "ease": "cubic-bezier(.65,0,.35,1)",
+    "rule": "ok"
+   }
+  ],
+  "roles": {
+   "enter": {
+    "n": 45,
+    "ms": [
+     50,
+     100,
+     120,
+     150,
+     200,
+     250,
+     300,
+     450
+    ],
+    "eases": [
+     "cubic-bezier(.22,1,.36,1)",
+     "linear",
+     "cubic-bezier(.65,0,.35,1)"
+    ]
+   },
+   "exit": {
+    "n": 20,
+    "ms": [
+     120,
+     180,
+     200,
+     250
+    ],
+    "eases": [
+     "cubic-bezier(.55,0,1,.45)",
+     "cubic-bezier(.22,1,.36,1)",
+     "cubic-bezier(.65,0,.35,1)"
+    ]
+   },
+   "travel": {
+    "n": 9,
+    "ms": [
+     450,
+     550,
+     700,
+     900
+    ],
+    "eases": [
+     "cubic-bezier(.65,0,.35,1)"
+    ]
+   },
+   "scale": {
+    "n": 6,
+    "ms": [
+     350,
+     450,
+     550,
+     800
+    ],
+    "eases": [
+     "cubic-bezier(.65,0,.35,1)"
+    ]
+   }
+  },
+  "pass": true
+ },
+ "railSync": {
+  "rail": [
+   [
+    6800,
+    550,
+    "cubic-bezier(.65,0,.35,1)"
+   ],
+   [
+    11900,
+    450,
+    "cubic-bezier(.65,0,.35,1)"
+   ],
+   [
+    16750,
+    450,
+    "cubic-bezier(.65,0,.35,1)"
+   ]
+  ],
+  "tokenTrips": [
+   [
+    2250,
+    450,
+    "cubic-bezier(.65,0,.35,1)"
+   ],
+   [
+    6800,
+    550,
+    "cubic-bezier(.65,0,.35,1)"
+   ],
+   [
+    11900,
+    450,
+    "cubic-bezier(.65,0,.35,1)"
+   ],
+   [
+    16750,
+    450,
+    "cubic-bezier(.65,0,.35,1)"
+   ]
+  ],
+  "pass": true
+ },
+ "rendering": {
+  "stageScaledWithTransform": false,
+  "stageTransform": "none",
+  "shadowTransitions": 0,
+  "willChangeAfterEnd": [],
+  "tabularNumerals": [
+   [
+    "€580,00",
+    "tabular-nums"
+   ],
+   [
+    "Due 22/04/2024",
+    "tabular-nums"
+   ],
+   [
+    "Due 23/04/2024",
+    "tabular-nums"
+   ],
+   [
+    "19/04/202412:2",
+    "tabular-nums"
+   ],
+   [
+    "21/04/202416:3",
+    "tabular-nums"
+   ],
+   [
+    "22/04/202417:5",
+    "tabular-nums"
+   ],
+   [
+    "11:24",
+    "tabular-nums"
+   ]
+  ]
+ },
+ "playback": {
+  "beforeView": {
+   "state": "ready",
+   "upload": "1"
+  },
+  "firstView": {
+   "state": "playing",
+   "uploadOpacity": "1",
+   "stage": "Accounts"
+  },
+  "startsMidStage": false,
+  "loops": false,
+  "endState": "ended",
+  "stageChanges": [
+   [
+    0,
+    0
+   ],
+   [
+    7.62,
+    1
+   ],
+   [
+    12.67,
+    2
+   ],
+   [
+    17.52,
+    3
+   ]
+  ],
+  "controlsAtEnd": [
+   "Accounts",
+   "Production",
+   "Operations",
+   "Shipping",
+   "Replay animation"
+  ],
+  "replay": {
+   "state": "playing",
+   "stage": "Accounts"
+  },
+  "reduced": {
+   "desktop": {
+    "still": true,
+    "showing": "Shipping",
+    "button": "hidden"
+   },
+   "mobile": {
+    "still": true,
+    "showing": "Shipping",
+    "button": "hidden"
+   }
+  },
+  "keyboard": {
+   "tabOrder": [
+    "node0",
+    "node1",
+    "node2",
+    "node3",
+    "pp"
+   ],
+   "enterSelects": "Production",
+   "stateAfterJump": "playing",
+   "focusRing": "solid 2px",
+   "enterOnOperations": {
+    "stage": "Operations",
+    "state": "playing"
+   }
+  }
+ },
+ "performance": {
+  "frames": 2958,
+  "p50ms": 8.3,
+  "p99ms": 9.3,
+  "maxMs": 9.4,
+  "over20ms": 0,
+  "longTasks": 0,
+  "willChangeAfterEnd": 0
+ },
+ "sticky": {
+  "desktop": "sticky",
+  "tablet": "static",
+  "mobile": "static"
+ }
+}
